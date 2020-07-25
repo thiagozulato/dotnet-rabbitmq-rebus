@@ -1,0 +1,1 @@
+docker run -d --name shop-rabbitmq -p 15672:15672 -p 5672:5672  -e RABBITMQ_DEFAULT_USER=shop -e RABBITMQ_DEFAULT_PASS=shop_123 rabbitmq:management-alpine
